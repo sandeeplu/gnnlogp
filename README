@@ -1,0 +1,16 @@
+Graph Neural Networks for Drug Molecule Lipophilicity Prediction
+
+This repository contains the code associated with the manuscript. Four Graph Neural Network (GNN) models—GIN, GCN, GraphSAGE, and AttentiveFP (AFP)—are trained for lipophilicity prediction on the MoleculeNet dataset, covering both classification and regression tasks.
+
+The data for training the models, as well as pretrained models are avaialble at insert link. 
+
+The libraries required for running the code are :
+Data analysis (Pandas, Matplotlib/Seaborn, RDKit)
+Generate graphs from SMILES (Pytorch Geometric)
+Graph Analysis (Networkx)
+Train Test Split (Pytorch)
+Defining Functions for Training and Evaluation
+Model Training and Evaluation (Pytorch Geometric)
+Hyperparameter Tuning (Optuna)
+
+

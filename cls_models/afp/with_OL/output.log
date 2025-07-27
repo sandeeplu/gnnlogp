@@ -1,0 +1,134 @@
+Processing...
+Done!
+Binary class counts: Counter({0: 2108, 1: 2092})
+Epoch 1/300, Train Acc: 0.5429, Test Acc: 0.5774
+Epoch 2/300, Train Acc: 0.5455, Test Acc: 0.5143
+Epoch 3/300, Train Acc: 0.5771, Test Acc: 0.6345
+Epoch 4/300, Train Acc: 0.5810, Test Acc: 0.6333
+Epoch 5/300, Train Acc: 0.5988, Test Acc: 0.6429
+Epoch 6/300, Train Acc: 0.5997, Test Acc: 0.6321
+Epoch 7/300, Train Acc: 0.6211, Test Acc: 0.6131
+Epoch 8/300, Train Acc: 0.6137, Test Acc: 0.6393
+Epoch 9/300, Train Acc: 0.6280, Test Acc: 0.6440
+Epoch 10/300, Train Acc: 0.6307, Test Acc: 0.6369
+Epoch 11/300, Train Acc: 0.6414, Test Acc: 0.6202
+Epoch 12/300, Train Acc: 0.6482, Test Acc: 0.6607
+Epoch 13/300, Train Acc: 0.6649, Test Acc: 0.6369
+Epoch 14/300, Train Acc: 0.6780, Test Acc: 0.7060
+Epoch 15/300, Train Acc: 0.6824, Test Acc: 0.6702
+Epoch 16/300, Train Acc: 0.7057, Test Acc: 0.6940
+Epoch 17/300, Train Acc: 0.7039, Test Acc: 0.7095
+Epoch 18/300, Train Acc: 0.7220, Test Acc: 0.7250
+Epoch 19/300, Train Acc: 0.7315, Test Acc: 0.7488
+Epoch 20/300, Train Acc: 0.7393, Test Acc: 0.7774
+Epoch 21/300, Train Acc: 0.7479, Test Acc: 0.7155
+Epoch 22/300, Train Acc: 0.7539, Test Acc: 0.7798
+Epoch 23/300, Train Acc: 0.7738, Test Acc: 0.7905
+Epoch 24/300, Train Acc: 0.7789, Test Acc: 0.7988
+Epoch 25/300, Train Acc: 0.7771, Test Acc: 0.7929
+Epoch 26/300, Train Acc: 0.7777, Test Acc: 0.7714
+Epoch 27/300, Train Acc: 0.7857, Test Acc: 0.8024
+Epoch 28/300, Train Acc: 0.7827, Test Acc: 0.8000
+Epoch 29/300, Train Acc: 0.7929, Test Acc: 0.8060
+Epoch 30/300, Train Acc: 0.7890, Test Acc: 0.7929
+Epoch 31/300, Train Acc: 0.8018, Test Acc: 0.8286
+Epoch 32/300, Train Acc: 0.8042, Test Acc: 0.8119
+Epoch 33/300, Train Acc: 0.8080, Test Acc: 0.8190
+Epoch 34/300, Train Acc: 0.8051, Test Acc: 0.8071
+Epoch 35/300, Train Acc: 0.8107, Test Acc: 0.8060
+Epoch 36/300, Train Acc: 0.8006, Test Acc: 0.8036
+Epoch 37/300, Train Acc: 0.8185, Test Acc: 0.8202
+Epoch 38/300, Train Acc: 0.8170, Test Acc: 0.7917
+Epoch 39/300, Train Acc: 0.8205, Test Acc: 0.8190
+Epoch 40/300, Train Acc: 0.8158, Test Acc: 0.8107
+Epoch 41/300, Train Acc: 0.8128, Test Acc: 0.8190
+Epoch 42/300, Train Acc: 0.8280, Test Acc: 0.8333
+Epoch 43/300, Train Acc: 0.8205, Test Acc: 0.8131
+Epoch 44/300, Train Acc: 0.8235, Test Acc: 0.8214
+Epoch 45/300, Train Acc: 0.8292, Test Acc: 0.8190
+Epoch 46/300, Train Acc: 0.8226, Test Acc: 0.8298
+Epoch 47/300, Train Acc: 0.8307, Test Acc: 0.8095
+Epoch 48/300, Train Acc: 0.8318, Test Acc: 0.8333
+Epoch 49/300, Train Acc: 0.8313, Test Acc: 0.8107
+Epoch 50/300, Train Acc: 0.8292, Test Acc: 0.8321
+Epoch 51/300, Train Acc: 0.8357, Test Acc: 0.8226
+Epoch 52/300, Train Acc: 0.8443, Test Acc: 0.8310
+Epoch 53/300, Train Acc: 0.8402, Test Acc: 0.8321
+Epoch 54/300, Train Acc: 0.8497, Test Acc: 0.8393
+Epoch 55/300, Train Acc: 0.8443, Test Acc: 0.8262
+Epoch 56/300, Train Acc: 0.8485, Test Acc: 0.8357
+Epoch 57/300, Train Acc: 0.8452, Test Acc: 0.8321
+Epoch 58/300, Train Acc: 0.8512, Test Acc: 0.8429
+Epoch 59/300, Train Acc: 0.8554, Test Acc: 0.8429
+Epoch 60/300, Train Acc: 0.8565, Test Acc: 0.8202
+Epoch 61/300, Train Acc: 0.8548, Test Acc: 0.8095
+Epoch 62/300, Train Acc: 0.8616, Test Acc: 0.8274
+Epoch 63/300, Train Acc: 0.8652, Test Acc: 0.8393
+Epoch 64/300, Train Acc: 0.8601, Test Acc: 0.8405
+Epoch 65/300, Train Acc: 0.8613, Test Acc: 0.8464
+Epoch 66/300, Train Acc: 0.8568, Test Acc: 0.8381
+Epoch 67/300, Train Acc: 0.8598, Test Acc: 0.8179
+Epoch 68/300, Train Acc: 0.8693, Test Acc: 0.8393
+Epoch 69/300, Train Acc: 0.8652, Test Acc: 0.8262
+Epoch 70/300, Train Acc: 0.8708, Test Acc: 0.8440
+Epoch 71/300, Train Acc: 0.8708, Test Acc: 0.8214
+Epoch 72/300, Train Acc: 0.8753, Test Acc: 0.8524
+Epoch 73/300, Train Acc: 0.8735, Test Acc: 0.8429
+Epoch 74/300, Train Acc: 0.8789, Test Acc: 0.8512
+Epoch 75/300, Train Acc: 0.8827, Test Acc: 0.8369
+Epoch 76/300, Train Acc: 0.8720, Test Acc: 0.8524
+Epoch 77/300, Train Acc: 0.8824, Test Acc: 0.8393
+Epoch 78/300, Train Acc: 0.8872, Test Acc: 0.8345
+Epoch 79/300, Train Acc: 0.8804, Test Acc: 0.8536
+Epoch 80/300, Train Acc: 0.8887, Test Acc: 0.8512
+Epoch 81/300, Train Acc: 0.8848, Test Acc: 0.8440
+Epoch 82/300, Train Acc: 0.8860, Test Acc: 0.8524
+Epoch 83/300, Train Acc: 0.8905, Test Acc: 0.8595
+Epoch 84/300, Train Acc: 0.8997, Test Acc: 0.8429
+Epoch 85/300, Train Acc: 0.8818, Test Acc: 0.8524
+Epoch 86/300, Train Acc: 0.9015, Test Acc: 0.8500
+Epoch 87/300, Train Acc: 0.8952, Test Acc: 0.8512
+Epoch 88/300, Train Acc: 0.8946, Test Acc: 0.8452
+Epoch 89/300, Train Acc: 0.8991, Test Acc: 0.8333
+Epoch 90/300, Train Acc: 0.9006, Test Acc: 0.8583
+Epoch 91/300, Train Acc: 0.9030, Test Acc: 0.8500
+Epoch 92/300, Train Acc: 0.9024, Test Acc: 0.8500
+Epoch 93/300, Train Acc: 0.9033, Test Acc: 0.8548
+Epoch 94/300, Train Acc: 0.9092, Test Acc: 0.8560
+Epoch 95/300, Train Acc: 0.9086, Test Acc: 0.8655
+Epoch 96/300, Train Acc: 0.9095, Test Acc: 0.8571
+Epoch 97/300, Train Acc: 0.9060, Test Acc: 0.8536
+Epoch 98/300, Train Acc: 0.9039, Test Acc: 0.8512
+Epoch 99/300, Train Acc: 0.9152, Test Acc: 0.8560
+Epoch 100/300, Train Acc: 0.9110, Test Acc: 0.8488
+Epoch 101/300, Train Acc: 0.9176, Test Acc: 0.8560
+Epoch 102/300, Train Acc: 0.9143, Test Acc: 0.8583
+Epoch 103/300, Train Acc: 0.9131, Test Acc: 0.8500
+Epoch 104/300, Train Acc: 0.9131, Test Acc: 0.8548
+Epoch 105/300, Train Acc: 0.9176, Test Acc: 0.8631
+Epoch 106/300, Train Acc: 0.9107, Test Acc: 0.8512
+Epoch 107/300, Train Acc: 0.9193, Test Acc: 0.8631
+Epoch 108/300, Train Acc: 0.9232, Test Acc: 0.8607
+Epoch 109/300, Train Acc: 0.9214, Test Acc: 0.8500
+Epoch 110/300, Train Acc: 0.9155, Test Acc: 0.8440
+Epoch 111/300, Train Acc: 0.9193, Test Acc: 0.8583
+Epoch 112/300, Train Acc: 0.9268, Test Acc: 0.8536
+Epoch 113/300, Train Acc: 0.9196, Test Acc: 0.8631
+Early stopping triggered.
+
+📘 Final Classification Metrics
+----------------------------------------
+Train Accuracy : 0.9366
+Train Precision: 0.9068
+Train Recall   : 0.9717
+Train F1 Score : 0.9381
+Train Loss     : 0.1908
+----------------------------------------
+Test Accuracy  : 0.8548
+Test Precision : 0.8438
+Test Recall    : 0.8791
+Test F1 Score  : 0.8610
+Test Loss      : 0.3941
+----------------------------------------
+Execution time : 3.11 minutes
+📁 Metrics and plots saved in 'plots/' folder

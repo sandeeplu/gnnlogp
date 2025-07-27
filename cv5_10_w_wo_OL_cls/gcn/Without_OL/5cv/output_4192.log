@@ -1,0 +1,172 @@
+Class distribution: Counter({0: 2104, 1: 2088})
+
+🌀 Fold 0 -----------------------------
+Epoch 000: Train Acc = 0.4924, Val Loss = 0.6991
+Epoch 010: Train Acc = 0.5676, Val Loss = 0.6836
+Epoch 020: Train Acc = 0.6221, Val Loss = 0.6673
+Epoch 030: Train Acc = 0.6299, Val Loss = 0.6555
+Epoch 040: Train Acc = 0.6555, Val Loss = 0.6527
+Epoch 050: Train Acc = 0.6597, Val Loss = 0.6272
+Epoch 060: Train Acc = 0.6761, Val Loss = 0.6200
+Epoch 070: Train Acc = 0.6982, Val Loss = 0.6018
+Epoch 080: Train Acc = 0.7033, Val Loss = 0.5927
+Epoch 090: Train Acc = 0.7128, Val Loss = 0.5774
+Epoch 100: Train Acc = 0.7313, Val Loss = 0.5609
+Epoch 110: Train Acc = 0.7325, Val Loss = 0.5496
+Epoch 120: Train Acc = 0.7375, Val Loss = 0.5483
+Epoch 130: Train Acc = 0.7471, Val Loss = 0.5391
+Epoch 140: Train Acc = 0.7525, Val Loss = 0.5113
+Epoch 150: Train Acc = 0.7623, Val Loss = 0.5269
+Epoch 160: Train Acc = 0.7715, Val Loss = 0.5010
+Epoch 170: Train Acc = 0.7587, Val Loss = 0.5650
+Epoch 180: Train Acc = 0.7760, Val Loss = 0.4901
+Epoch 190: Train Acc = 0.7817, Val Loss = 0.4848
+Epoch 200: Train Acc = 0.7805, Val Loss = 0.4753
+Epoch 210: Train Acc = 0.7862, Val Loss = 0.4876
+Epoch 220: Train Acc = 0.7891, Val Loss = 0.4870
+Epoch 230: Train Acc = 0.7900, Val Loss = 0.4660
+Epoch 240: Train Acc = 0.7942, Val Loss = 0.4714
+Epoch 250: Train Acc = 0.8047, Val Loss = 0.4605
+Epoch 260: Train Acc = 0.7996, Val Loss = 0.4515
+Epoch 270: Train Acc = 0.8038, Val Loss = 0.4617
+Epoch 280: Train Acc = 0.8118, Val Loss = 0.4740
+Epoch 290: Train Acc = 0.8142, Val Loss = 0.4541
+✅ Fold 0 - Accuracy: 0.7747, Precision: 0.7361, Recall: 0.8541, F1: 0.7907
+Fold time: 244.31s
+
+🌀 Fold 1 -----------------------------
+Epoch 000: Train Acc = 0.4963, Val Loss = 0.6926
+Epoch 010: Train Acc = 0.5738, Val Loss = 0.6753
+Epoch 020: Train Acc = 0.5998, Val Loss = 0.6492
+Epoch 030: Train Acc = 0.6356, Val Loss = 0.6273
+Epoch 040: Train Acc = 0.6439, Val Loss = 0.6195
+Epoch 050: Train Acc = 0.6687, Val Loss = 0.6277
+Epoch 060: Train Acc = 0.6794, Val Loss = 0.5996
+Epoch 070: Train Acc = 0.6937, Val Loss = 0.5867
+Epoch 080: Train Acc = 0.6982, Val Loss = 0.5765
+Epoch 090: Train Acc = 0.7134, Val Loss = 0.5750
+Epoch 100: Train Acc = 0.7214, Val Loss = 0.5503
+Epoch 110: Train Acc = 0.7298, Val Loss = 0.5542
+Epoch 120: Train Acc = 0.7378, Val Loss = 0.5415
+Epoch 130: Train Acc = 0.7426, Val Loss = 0.5430
+Epoch 140: Train Acc = 0.7483, Val Loss = 0.5274
+Epoch 150: Train Acc = 0.7599, Val Loss = 0.5239
+Epoch 160: Train Acc = 0.7617, Val Loss = 0.5192
+Epoch 170: Train Acc = 0.7841, Val Loss = 0.5240
+Epoch 180: Train Acc = 0.7814, Val Loss = 0.5317
+Epoch 190: Train Acc = 0.7802, Val Loss = 0.5030
+Epoch 200: Train Acc = 0.7838, Val Loss = 0.5047
+Epoch 210: Train Acc = 0.7891, Val Loss = 0.5169
+Epoch 220: Train Acc = 0.7969, Val Loss = 0.5402
+⏹️ Early stopping triggered.
+✅ Fold 1 - Accuracy: 0.7735, Precision: 0.7405, Recall: 0.8397, F1: 0.7870
+Fold time: 269.56s
+
+🌀 Fold 2 -----------------------------
+Epoch 000: Train Acc = 0.4955, Val Loss = 0.6930
+Epoch 010: Train Acc = 0.5596, Val Loss = 0.6774
+Epoch 020: Train Acc = 0.5856, Val Loss = 0.6717
+Epoch 030: Train Acc = 0.6151, Val Loss = 0.6446
+Epoch 040: Train Acc = 0.6434, Val Loss = 0.6224
+Epoch 050: Train Acc = 0.6649, Val Loss = 0.6128
+Epoch 060: Train Acc = 0.6780, Val Loss = 0.5938
+Epoch 070: Train Acc = 0.6929, Val Loss = 0.5930
+Epoch 080: Train Acc = 0.6977, Val Loss = 0.5944
+Epoch 090: Train Acc = 0.7120, Val Loss = 0.5652
+Epoch 100: Train Acc = 0.7177, Val Loss = 0.5917
+Epoch 110: Train Acc = 0.7343, Val Loss = 0.5584
+Epoch 120: Train Acc = 0.7329, Val Loss = 0.5485
+Epoch 130: Train Acc = 0.7513, Val Loss = 0.5260
+Epoch 140: Train Acc = 0.7588, Val Loss = 0.5354
+Epoch 150: Train Acc = 0.7463, Val Loss = 0.5282
+Epoch 160: Train Acc = 0.7665, Val Loss = 0.5237
+Epoch 170: Train Acc = 0.7707, Val Loss = 0.5253
+Epoch 180: Train Acc = 0.7752, Val Loss = 0.5152
+Epoch 190: Train Acc = 0.7639, Val Loss = 0.5291
+Epoch 200: Train Acc = 0.7788, Val Loss = 0.5007
+Epoch 210: Train Acc = 0.7803, Val Loss = 0.4815
+Epoch 220: Train Acc = 0.7898, Val Loss = 0.4758
+Epoch 230: Train Acc = 0.7865, Val Loss = 0.4747
+Epoch 240: Train Acc = 0.7943, Val Loss = 0.4824
+Epoch 250: Train Acc = 0.7922, Val Loss = 0.4758
+Epoch 260: Train Acc = 0.7961, Val Loss = 0.4874
+Epoch 270: Train Acc = 0.8017, Val Loss = 0.5004
+Epoch 280: Train Acc = 0.8125, Val Loss = 0.4918
+Epoch 290: Train Acc = 0.8137, Val Loss = 0.4908
+✅ Fold 2 - Accuracy: 0.7446, Precision: 0.6841, Recall: 0.9067, F1: 0.7798
+Fold time: 356.12s
+
+🌀 Fold 3 -----------------------------
+Epoch 000: Train Acc = 0.4887, Val Loss = 0.6927
+Epoch 010: Train Acc = 0.5623, Val Loss = 0.6762
+Epoch 020: Train Acc = 0.5984, Val Loss = 0.6611
+Epoch 030: Train Acc = 0.6330, Val Loss = 0.6460
+Epoch 040: Train Acc = 0.6458, Val Loss = 0.6427
+Epoch 050: Train Acc = 0.6461, Val Loss = 0.6262
+Epoch 060: Train Acc = 0.6702, Val Loss = 0.6034
+Epoch 070: Train Acc = 0.6929, Val Loss = 0.5909
+Epoch 080: Train Acc = 0.7075, Val Loss = 0.5779
+Epoch 090: Train Acc = 0.7069, Val Loss = 0.5669
+Epoch 100: Train Acc = 0.7290, Val Loss = 0.5614
+Epoch 110: Train Acc = 0.7421, Val Loss = 0.5473
+Epoch 120: Train Acc = 0.7433, Val Loss = 0.5861
+Epoch 130: Train Acc = 0.7481, Val Loss = 0.5453
+Epoch 140: Train Acc = 0.7546, Val Loss = 0.5510
+Epoch 150: Train Acc = 0.7618, Val Loss = 0.5509
+Epoch 160: Train Acc = 0.7603, Val Loss = 0.5224
+Epoch 170: Train Acc = 0.7770, Val Loss = 0.5171
+Epoch 180: Train Acc = 0.7698, Val Loss = 0.5549
+Epoch 190: Train Acc = 0.7746, Val Loss = 0.5105
+Epoch 200: Train Acc = 0.7752, Val Loss = 0.4931
+Epoch 210: Train Acc = 0.7853, Val Loss = 0.5014
+Epoch 220: Train Acc = 0.7919, Val Loss = 0.4974
+Epoch 230: Train Acc = 0.7943, Val Loss = 0.5009
+Epoch 240: Train Acc = 0.7979, Val Loss = 0.4894
+Epoch 250: Train Acc = 0.7967, Val Loss = 0.4918
+Epoch 260: Train Acc = 0.7987, Val Loss = 0.4890
+Epoch 270: Train Acc = 0.8098, Val Loss = 0.4862
+Epoch 280: Train Acc = 0.8110, Val Loss = 0.5067
+Epoch 290: Train Acc = 0.8169, Val Loss = 0.5218
+✅ Fold 3 - Accuracy: 0.7959, Precision: 0.8475, Recall: 0.7194, F1: 0.7782
+Fold time: 352.85s
+
+🌀 Fold 4 -----------------------------
+Epoch 000: Train Acc = 0.4848, Val Loss = 0.6924
+Epoch 010: Train Acc = 0.5617, Val Loss = 0.6875
+Epoch 020: Train Acc = 0.5820, Val Loss = 0.6694
+Epoch 030: Train Acc = 0.6061, Val Loss = 0.6460
+Epoch 040: Train Acc = 0.6392, Val Loss = 0.6283
+Epoch 050: Train Acc = 0.6446, Val Loss = 0.6070
+Epoch 060: Train Acc = 0.6667, Val Loss = 0.5993
+Epoch 070: Train Acc = 0.6863, Val Loss = 0.5914
+Epoch 080: Train Acc = 0.6887, Val Loss = 0.5633
+Epoch 090: Train Acc = 0.6968, Val Loss = 0.5507
+Epoch 100: Train Acc = 0.7168, Val Loss = 0.5702
+Epoch 110: Train Acc = 0.7275, Val Loss = 0.5579
+Epoch 120: Train Acc = 0.7463, Val Loss = 0.5405
+Epoch 130: Train Acc = 0.7412, Val Loss = 0.5280
+Epoch 140: Train Acc = 0.7510, Val Loss = 0.5242
+Epoch 150: Train Acc = 0.7469, Val Loss = 0.5342
+Epoch 160: Train Acc = 0.7487, Val Loss = 0.5136
+Epoch 170: Train Acc = 0.7585, Val Loss = 0.5050
+Epoch 180: Train Acc = 0.7657, Val Loss = 0.5132
+Epoch 190: Train Acc = 0.7812, Val Loss = 0.5013
+Epoch 200: Train Acc = 0.7734, Val Loss = 0.5090
+Epoch 210: Train Acc = 0.7755, Val Loss = 0.5032
+Epoch 220: Train Acc = 0.7818, Val Loss = 0.4805
+Epoch 230: Train Acc = 0.7818, Val Loss = 0.5105
+Epoch 240: Train Acc = 0.7904, Val Loss = 0.4738
+Epoch 250: Train Acc = 0.7856, Val Loss = 0.4797
+Epoch 260: Train Acc = 0.7818, Val Loss = 0.5021
+Epoch 270: Train Acc = 0.7922, Val Loss = 0.4800
+Epoch 280: Train Acc = 0.7973, Val Loss = 0.4896
+Epoch 290: Train Acc = 0.7982, Val Loss = 0.5111
+✅ Fold 4 - Accuracy: 0.7792, Precision: 0.7348, Recall: 0.8705, F1: 0.7969
+Fold time: 191.59s
+
+🎯 Final Cross-Validation Results:
+Avg Accuracy : 0.7736 ± 0.0166
+Avg Precision: 0.7486 ± 0.0536
+Avg Recall   : 0.8381 ± 0.0634
+Avg F1 Score : 0.7865 ± 0.0069
+Total time: 1414.44s

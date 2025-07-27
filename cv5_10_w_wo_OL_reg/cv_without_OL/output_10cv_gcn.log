@@ -1,0 +1,319 @@
+
+FOLD 0 ----------------------------
+Epoch 000: Train RMSE = 1.2220, Val RMSE = 1.2309
+Epoch 010: Train RMSE = 1.0966, Val RMSE = 1.1452
+Epoch 020: Train RMSE = 1.0457, Val RMSE = 1.1183
+Epoch 030: Train RMSE = 1.0261, Val RMSE = 1.0778
+Epoch 040: Train RMSE = 0.9943, Val RMSE = 1.0480
+Epoch 050: Train RMSE = 0.9706, Val RMSE = 1.0168
+Epoch 060: Train RMSE = 0.9397, Val RMSE = 0.9831
+Epoch 070: Train RMSE = 0.9216, Val RMSE = 0.9594
+Epoch 080: Train RMSE = 0.9080, Val RMSE = 0.9628
+Epoch 090: Train RMSE = 0.8947, Val RMSE = 0.9885
+Epoch 100: Train RMSE = 0.8703, Val RMSE = 0.9184
+Epoch 110: Train RMSE = 0.8486, Val RMSE = 0.9154
+Epoch 120: Train RMSE = 0.8330, Val RMSE = 0.8603
+Epoch 130: Train RMSE = 0.8204, Val RMSE = 0.8398
+Epoch 140: Train RMSE = 0.8022, Val RMSE = 0.8314
+Epoch 150: Train RMSE = 0.7890, Val RMSE = 0.8565
+Epoch 160: Train RMSE = 0.7804, Val RMSE = 0.8111
+Epoch 170: Train RMSE = 0.7826, Val RMSE = 0.8123
+Epoch 180: Train RMSE = 0.7617, Val RMSE = 0.7967
+Epoch 190: Train RMSE = 0.7579, Val RMSE = 0.7770
+Epoch 200: Train RMSE = 0.7484, Val RMSE = 0.7998
+Epoch 210: Train RMSE = 0.7434, Val RMSE = 0.8081
+Epoch 220: Train RMSE = 0.7349, Val RMSE = 0.8210
+Epoch 230: Train RMSE = 0.7338, Val RMSE = 0.7829
+Epoch 240: Train RMSE = 0.7216, Val RMSE = 0.7639
+Epoch 250: Train RMSE = 0.7122, Val RMSE = 0.7670
+Epoch 260: Train RMSE = 0.6895, Val RMSE = 0.7343
+Epoch 270: Train RMSE = 0.6868, Val RMSE = 0.7335
+Epoch 280: Train RMSE = 0.6913, Val RMSE = 0.7539
+Epoch 290: Train RMSE = 0.6923, Val RMSE = 0.7515
+Fold 0 R2 score: 0.6287, RMSE: 0.7206, MAE: 0.5308, MSE: 0.5193
+Fold 0 completed in 1318.14 seconds.
+
+FOLD 1 ----------------------------
+Epoch 000: Train RMSE = 1.1867, Val RMSE = 1.2146
+Epoch 010: Train RMSE = 1.1089, Val RMSE = 1.1777
+Epoch 020: Train RMSE = 1.0752, Val RMSE = 1.1499
+Epoch 030: Train RMSE = 1.0406, Val RMSE = 1.1283
+Epoch 040: Train RMSE = 1.0183, Val RMSE = 1.1013
+Epoch 050: Train RMSE = 0.9740, Val RMSE = 1.0194
+Epoch 060: Train RMSE = 0.9588, Val RMSE = 1.0199
+Epoch 070: Train RMSE = 0.9270, Val RMSE = 0.9872
+Epoch 080: Train RMSE = 0.9114, Val RMSE = 0.9805
+Epoch 090: Train RMSE = 0.8791, Val RMSE = 0.9576
+Epoch 100: Train RMSE = 0.8657, Val RMSE = 0.9259
+Epoch 110: Train RMSE = 0.8637, Val RMSE = 0.9526
+Epoch 120: Train RMSE = 0.8433, Val RMSE = 0.9224
+Epoch 130: Train RMSE = 0.8283, Val RMSE = 0.8845
+Epoch 140: Train RMSE = 0.8180, Val RMSE = 0.9018
+Epoch 150: Train RMSE = 0.7937, Val RMSE = 0.9284
+Epoch 160: Train RMSE = 0.7792, Val RMSE = 0.8514
+Epoch 170: Train RMSE = 0.7761, Val RMSE = 0.8346
+Epoch 180: Train RMSE = 0.7588, Val RMSE = 0.8407
+Epoch 190: Train RMSE = 0.7470, Val RMSE = 0.8355
+Epoch 200: Train RMSE = 0.7412, Val RMSE = 0.7954
+Epoch 210: Train RMSE = 0.7277, Val RMSE = 0.8004
+Epoch 220: Train RMSE = 0.7231, Val RMSE = 0.8160
+Epoch 230: Train RMSE = 0.7277, Val RMSE = 0.8128
+Early stopping triggered.
+Fold 1 R2 score: 0.5507, RMSE: 0.7938, MAE: 0.6087, MSE: 0.6301
+Fold 1 completed in 1031.10 seconds.
+
+FOLD 2 ----------------------------
+Epoch 000: Train RMSE = 1.1937, Val RMSE = 1.1943
+Epoch 010: Train RMSE = 1.1197, Val RMSE = 1.1565
+Epoch 020: Train RMSE = 1.0957, Val RMSE = 1.1507
+Epoch 030: Train RMSE = 1.0433, Val RMSE = 1.0663
+Epoch 040: Train RMSE = 1.0217, Val RMSE = 1.0283
+Epoch 050: Train RMSE = 0.9970, Val RMSE = 0.9971
+Epoch 060: Train RMSE = 0.9712, Val RMSE = 1.0092
+Epoch 070: Train RMSE = 0.9423, Val RMSE = 0.9549
+Epoch 080: Train RMSE = 0.9189, Val RMSE = 0.9947
+Epoch 090: Train RMSE = 0.8892, Val RMSE = 0.9104
+Epoch 100: Train RMSE = 0.8873, Val RMSE = 0.9278
+Epoch 110: Train RMSE = 0.8597, Val RMSE = 0.8693
+Epoch 120: Train RMSE = 0.8588, Val RMSE = 0.8484
+Epoch 130: Train RMSE = 0.8328, Val RMSE = 0.8314
+Epoch 140: Train RMSE = 0.8218, Val RMSE = 0.8534
+Epoch 150: Train RMSE = 0.8046, Val RMSE = 0.8057
+Epoch 160: Train RMSE = 0.8007, Val RMSE = 0.8021
+Epoch 170: Train RMSE = 0.7848, Val RMSE = 0.7908
+Epoch 180: Train RMSE = 0.7792, Val RMSE = 0.7780
+Epoch 190: Train RMSE = 0.7755, Val RMSE = 0.7714
+Epoch 200: Train RMSE = 0.7606, Val RMSE = 0.8166
+Epoch 210: Train RMSE = 0.7559, Val RMSE = 0.7655
+Epoch 220: Train RMSE = 0.7557, Val RMSE = 0.7768
+Epoch 230: Train RMSE = 0.7366, Val RMSE = 0.7448
+Epoch 240: Train RMSE = 0.7400, Val RMSE = 0.7406
+Epoch 250: Train RMSE = 0.7344, Val RMSE = 0.7715
+Early stopping triggered.
+Fold 2 R2 score: 0.6013, RMSE: 0.7541, MAE: 0.5612, MSE: 0.5687
+Fold 2 completed in 1155.89 seconds.
+
+FOLD 3 ----------------------------
+Epoch 000: Train RMSE = 1.2073, Val RMSE = 1.1208
+Epoch 010: Train RMSE = 1.1210, Val RMSE = 1.0786
+Epoch 020: Train RMSE = 1.0740, Val RMSE = 1.0696
+Epoch 030: Train RMSE = 1.0576, Val RMSE = 1.0240
+Epoch 040: Train RMSE = 1.0302, Val RMSE = 1.0412
+Epoch 050: Train RMSE = 0.9999, Val RMSE = 0.9779
+Epoch 060: Train RMSE = 0.9590, Val RMSE = 0.9764
+Epoch 070: Train RMSE = 0.9434, Val RMSE = 0.9261
+Epoch 080: Train RMSE = 0.9266, Val RMSE = 0.9417
+Epoch 090: Train RMSE = 0.8926, Val RMSE = 0.8725
+Epoch 100: Train RMSE = 0.8785, Val RMSE = 0.8724
+Epoch 110: Train RMSE = 0.8637, Val RMSE = 0.8736
+Epoch 120: Train RMSE = 0.8524, Val RMSE = 0.8606
+Epoch 130: Train RMSE = 0.8346, Val RMSE = 0.8759
+Epoch 140: Train RMSE = 0.8331, Val RMSE = 0.8588
+Epoch 150: Train RMSE = 0.8185, Val RMSE = 0.8392
+Epoch 160: Train RMSE = 0.8093, Val RMSE = 0.8292
+Epoch 170: Train RMSE = 0.7994, Val RMSE = 0.7980
+Epoch 180: Train RMSE = 0.7879, Val RMSE = 0.7825
+Epoch 190: Train RMSE = 0.7803, Val RMSE = 0.8287
+Epoch 200: Train RMSE = 0.7664, Val RMSE = 0.8038
+Epoch 210: Train RMSE = 0.7619, Val RMSE = 0.7772
+Epoch 220: Train RMSE = 0.7459, Val RMSE = 0.7723
+Epoch 230: Train RMSE = 0.7345, Val RMSE = 0.7567
+Epoch 240: Train RMSE = 0.7323, Val RMSE = 0.8153
+Early stopping triggered.
+Fold 3 R2 score: 0.5280, RMSE: 0.7622, MAE: 0.5967, MSE: 0.5809
+Fold 3 completed in 986.36 seconds.
+
+FOLD 4 ----------------------------
+Epoch 000: Train RMSE = 1.1983, Val RMSE = 1.2568
+Epoch 010: Train RMSE = 1.1070, Val RMSE = 1.1910
+Epoch 020: Train RMSE = 1.0696, Val RMSE = 1.2101
+Epoch 030: Train RMSE = 1.0402, Val RMSE = 1.1232
+Epoch 040: Train RMSE = 1.0180, Val RMSE = 1.0990
+Epoch 050: Train RMSE = 0.9957, Val RMSE = 1.0918
+Epoch 060: Train RMSE = 0.9594, Val RMSE = 1.0337
+Epoch 070: Train RMSE = 0.9477, Val RMSE = 1.0143
+Epoch 080: Train RMSE = 0.9221, Val RMSE = 1.0138
+Epoch 090: Train RMSE = 0.9102, Val RMSE = 0.9735
+Epoch 100: Train RMSE = 0.8962, Val RMSE = 0.9377
+Epoch 110: Train RMSE = 0.8795, Val RMSE = 0.9349
+Epoch 120: Train RMSE = 0.8556, Val RMSE = 0.9303
+Epoch 130: Train RMSE = 0.8380, Val RMSE = 0.8878
+Epoch 140: Train RMSE = 0.8300, Val RMSE = 0.9116
+Epoch 150: Train RMSE = 0.8210, Val RMSE = 0.8660
+Epoch 160: Train RMSE = 0.8110, Val RMSE = 0.8877
+Epoch 170: Train RMSE = 0.7999, Val RMSE = 0.8889
+Epoch 180: Train RMSE = 0.7927, Val RMSE = 0.8633
+Epoch 190: Train RMSE = 0.7790, Val RMSE = 0.8539
+Epoch 200: Train RMSE = 0.7732, Val RMSE = 0.8263
+Epoch 210: Train RMSE = 0.7526, Val RMSE = 0.8605
+Epoch 220: Train RMSE = 0.7495, Val RMSE = 0.8251
+Epoch 230: Train RMSE = 0.7589, Val RMSE = 0.8792
+Epoch 240: Train RMSE = 0.7357, Val RMSE = 0.9123
+Epoch 250: Train RMSE = 0.7324, Val RMSE = 0.8464
+Epoch 260: Train RMSE = 0.7304, Val RMSE = 0.8115
+Epoch 270: Train RMSE = 0.7193, Val RMSE = 0.8228
+Epoch 280: Train RMSE = 0.7162, Val RMSE = 0.7993
+Epoch 290: Train RMSE = 0.7089, Val RMSE = 0.7720
+Fold 4 R2 score: 0.5856, RMSE: 0.8063, MAE: 0.6240, MSE: 0.6501
+Fold 4 completed in 530.22 seconds.
+
+FOLD 5 ----------------------------
+Epoch 000: Train RMSE = 1.1868, Val RMSE = 1.2498
+Epoch 010: Train RMSE = 1.1075, Val RMSE = 1.2089
+Epoch 020: Train RMSE = 1.0433, Val RMSE = 1.1903
+Epoch 030: Train RMSE = 1.0358, Val RMSE = 1.1080
+Epoch 040: Train RMSE = 1.0150, Val RMSE = 1.1061
+Epoch 050: Train RMSE = 0.9904, Val RMSE = 1.0629
+Epoch 060: Train RMSE = 0.9530, Val RMSE = 1.0405
+Epoch 070: Train RMSE = 0.9217, Val RMSE = 1.0048
+Epoch 080: Train RMSE = 0.9150, Val RMSE = 0.9733
+Epoch 090: Train RMSE = 0.8638, Val RMSE = 0.9605
+Epoch 100: Train RMSE = 0.8529, Val RMSE = 0.9468
+Epoch 110: Train RMSE = 0.8396, Val RMSE = 0.9323
+Epoch 120: Train RMSE = 0.8174, Val RMSE = 0.8986
+Epoch 130: Train RMSE = 0.8138, Val RMSE = 0.9478
+Epoch 140: Train RMSE = 0.7976, Val RMSE = 0.8791
+Epoch 150: Train RMSE = 0.7786, Val RMSE = 0.9143
+Epoch 160: Train RMSE = 0.7725, Val RMSE = 0.8639
+Epoch 170: Train RMSE = 0.7676, Val RMSE = 0.8344
+Epoch 180: Train RMSE = 0.7610, Val RMSE = 0.8491
+Epoch 190: Train RMSE = 0.7367, Val RMSE = 0.8686
+Epoch 200: Train RMSE = 0.7372, Val RMSE = 0.8730
+Epoch 210: Train RMSE = 0.7291, Val RMSE = 0.8105
+Epoch 220: Train RMSE = 0.7226, Val RMSE = 0.8178
+Epoch 230: Train RMSE = 0.7085, Val RMSE = 0.8142
+Epoch 240: Train RMSE = 0.6920, Val RMSE = 0.8078
+Epoch 250: Train RMSE = 0.6998, Val RMSE = 0.8267
+Epoch 260: Train RMSE = 0.6927, Val RMSE = 0.8281
+Epoch 270: Train RMSE = 0.6886, Val RMSE = 0.7801
+Epoch 280: Train RMSE = 0.6764, Val RMSE = 0.8018
+Epoch 290: Train RMSE = 0.6727, Val RMSE = 0.7928
+Fold 5 R2 score: 0.5744, RMSE: 0.8188, MAE: 0.6106, MSE: 0.6705
+Fold 5 completed in 513.39 seconds.
+
+FOLD 6 ----------------------------
+Epoch 000: Train RMSE = 1.1953, Val RMSE = 1.2099
+Epoch 010: Train RMSE = 1.1112, Val RMSE = 1.1622
+Epoch 020: Train RMSE = 1.0654, Val RMSE = 1.1062
+Epoch 030: Train RMSE = 1.0390, Val RMSE = 1.1125
+Epoch 040: Train RMSE = 1.0141, Val RMSE = 1.0871
+Epoch 050: Train RMSE = 0.9713, Val RMSE = 1.0263
+Epoch 060: Train RMSE = 0.9447, Val RMSE = 1.0195
+Epoch 070: Train RMSE = 0.9255, Val RMSE = 0.9767
+Epoch 080: Train RMSE = 0.9082, Val RMSE = 0.9814
+Epoch 090: Train RMSE = 0.8959, Val RMSE = 0.9337
+Epoch 100: Train RMSE = 0.8709, Val RMSE = 0.9239
+Epoch 110: Train RMSE = 0.8657, Val RMSE = 0.9312
+Epoch 120: Train RMSE = 0.8521, Val RMSE = 0.9033
+Epoch 130: Train RMSE = 0.8248, Val RMSE = 0.8758
+Epoch 140: Train RMSE = 0.8171, Val RMSE = 0.8766
+Epoch 150: Train RMSE = 0.8128, Val RMSE = 0.8494
+Epoch 160: Train RMSE = 0.7911, Val RMSE = 0.8280
+Epoch 170: Train RMSE = 0.7844, Val RMSE = 0.8425
+Epoch 180: Train RMSE = 0.7662, Val RMSE = 0.8747
+Epoch 190: Train RMSE = 0.7665, Val RMSE = 0.8609
+Epoch 200: Train RMSE = 0.7349, Val RMSE = 0.8446
+Epoch 210: Train RMSE = 0.7343, Val RMSE = 0.8747
+Epoch 220: Train RMSE = 0.7282, Val RMSE = 0.8100
+Epoch 230: Train RMSE = 0.7341, Val RMSE = 0.8509
+Epoch 240: Train RMSE = 0.7130, Val RMSE = 0.8545
+Epoch 250: Train RMSE = 0.7117, Val RMSE = 0.8526
+Early stopping triggered.
+Fold 6 R2 score: 0.5213, RMSE: 0.8393, MAE: 0.6125, MSE: 0.7044
+Fold 6 completed in 492.30 seconds.
+
+FOLD 7 ----------------------------
+Epoch 000: Train RMSE = 1.1938, Val RMSE = 1.1941
+Epoch 010: Train RMSE = 1.1184, Val RMSE = 1.1349
+Epoch 020: Train RMSE = 1.0754, Val RMSE = 1.1824
+Epoch 030: Train RMSE = 1.0432, Val RMSE = 1.0630
+Epoch 040: Train RMSE = 1.0107, Val RMSE = 0.9915
+Epoch 050: Train RMSE = 0.9782, Val RMSE = 1.0278
+Epoch 060: Train RMSE = 0.9625, Val RMSE = 0.9477
+Epoch 070: Train RMSE = 0.9368, Val RMSE = 0.9738
+Epoch 080: Train RMSE = 0.9296, Val RMSE = 0.9103
+Epoch 090: Train RMSE = 0.9050, Val RMSE = 0.9101
+Epoch 100: Train RMSE = 0.8969, Val RMSE = 0.8680
+Epoch 110: Train RMSE = 0.8771, Val RMSE = 0.8505
+Epoch 120: Train RMSE = 0.8576, Val RMSE = 0.8286
+Epoch 130: Train RMSE = 0.8470, Val RMSE = 0.8187
+Epoch 140: Train RMSE = 0.8205, Val RMSE = 0.7915
+Epoch 150: Train RMSE = 0.8242, Val RMSE = 0.7717
+Epoch 160: Train RMSE = 0.8085, Val RMSE = 0.7921
+Epoch 170: Train RMSE = 0.8033, Val RMSE = 0.7348
+Epoch 180: Train RMSE = 0.7892, Val RMSE = 0.7728
+Epoch 190: Train RMSE = 0.7844, Val RMSE = 0.8216
+Epoch 200: Train RMSE = 0.7700, Val RMSE = 0.7350
+Epoch 210: Train RMSE = 0.7575, Val RMSE = 0.7324
+Epoch 220: Train RMSE = 0.7600, Val RMSE = 0.7161
+Early stopping triggered.
+Fold 7 R2 score: 0.5988, RMSE: 0.7373, MAE: 0.5804, MSE: 0.5436
+Fold 7 completed in 436.64 seconds.
+
+FOLD 8 ----------------------------
+Epoch 000: Train RMSE = 1.2246, Val RMSE = 1.2110
+Epoch 010: Train RMSE = 1.1166, Val RMSE = 1.1217
+Epoch 020: Train RMSE = 1.0644, Val RMSE = 1.0523
+Epoch 030: Train RMSE = 1.0297, Val RMSE = 1.0094
+Epoch 040: Train RMSE = 1.0021, Val RMSE = 1.0496
+Epoch 050: Train RMSE = 0.9822, Val RMSE = 0.9811
+Epoch 060: Train RMSE = 0.9433, Val RMSE = 0.9331
+Epoch 070: Train RMSE = 0.9306, Val RMSE = 0.9421
+Epoch 080: Train RMSE = 0.9105, Val RMSE = 0.9651
+Epoch 090: Train RMSE = 0.8936, Val RMSE = 0.8762
+Epoch 100: Train RMSE = 0.8740, Val RMSE = 0.8813
+Epoch 110: Train RMSE = 0.8577, Val RMSE = 0.8993
+Epoch 120: Train RMSE = 0.8273, Val RMSE = 0.8611
+Epoch 130: Train RMSE = 0.8294, Val RMSE = 0.8525
+Epoch 140: Train RMSE = 0.8050, Val RMSE = 0.8793
+Epoch 150: Train RMSE = 0.7964, Val RMSE = 0.8478
+Epoch 160: Train RMSE = 0.7796, Val RMSE = 0.8091
+Epoch 170: Train RMSE = 0.7693, Val RMSE = 0.8248
+Epoch 180: Train RMSE = 0.7594, Val RMSE = 0.8232
+Epoch 190: Train RMSE = 0.7543, Val RMSE = 0.8092
+Epoch 200: Train RMSE = 0.7432, Val RMSE = 0.8256
+Epoch 210: Train RMSE = 0.7375, Val RMSE = 0.8291
+Early stopping triggered.
+Fold 8 R2 score: 0.5699, RMSE: 0.7815, MAE: 0.5947, MSE: 0.6108
+Fold 8 completed in 416.37 seconds.
+
+FOLD 9 ----------------------------
+Epoch 000: Train RMSE = 1.1959, Val RMSE = 1.2425
+Epoch 010: Train RMSE = 1.1068, Val RMSE = 1.2110
+Epoch 020: Train RMSE = 1.0643, Val RMSE = 1.2011
+Epoch 030: Train RMSE = 1.0395, Val RMSE = 1.1368
+Epoch 040: Train RMSE = 1.0160, Val RMSE = 1.1322
+Epoch 050: Train RMSE = 0.9934, Val RMSE = 1.0751
+Epoch 060: Train RMSE = 0.9639, Val RMSE = 1.0468
+Epoch 070: Train RMSE = 0.9317, Val RMSE = 1.0149
+Epoch 080: Train RMSE = 0.9049, Val RMSE = 1.0518
+Epoch 090: Train RMSE = 0.8858, Val RMSE = 1.0264
+Epoch 100: Train RMSE = 0.8734, Val RMSE = 0.9713
+Epoch 110: Train RMSE = 0.8544, Val RMSE = 0.9830
+Epoch 120: Train RMSE = 0.8339, Val RMSE = 0.9366
+Epoch 130: Train RMSE = 0.8240, Val RMSE = 1.0235
+Epoch 140: Train RMSE = 0.8246, Val RMSE = 0.9657
+Epoch 150: Train RMSE = 0.8066, Val RMSE = 0.9398
+Epoch 160: Train RMSE = 0.7887, Val RMSE = 0.8955
+Epoch 170: Train RMSE = 0.7836, Val RMSE = 0.9094
+Epoch 180: Train RMSE = 0.7838, Val RMSE = 0.9092
+Epoch 190: Train RMSE = 0.7597, Val RMSE = 0.8732
+Epoch 200: Train RMSE = 0.7437, Val RMSE = 0.8870
+Epoch 210: Train RMSE = 0.7489, Val RMSE = 0.8606
+Epoch 220: Train RMSE = 0.7508, Val RMSE = 0.8730
+Epoch 230: Train RMSE = 0.7464, Val RMSE = 0.8816
+Epoch 240: Train RMSE = 0.7364, Val RMSE = 0.8534
+Epoch 250: Train RMSE = 0.7189, Val RMSE = 0.8368
+Epoch 260: Train RMSE = 0.7130, Val RMSE = 0.8625
+Epoch 270: Train RMSE = 0.7001, Val RMSE = 0.8272
+Epoch 280: Train RMSE = 0.6895, Val RMSE = 0.8238
+Epoch 290: Train RMSE = 0.6860, Val RMSE = 0.8083
+Fold 9 R2 score: 0.5674, RMSE: 0.8158, MAE: 0.6065, MSE: 0.6655
+Fold 9 completed in 573.81 seconds.
+
+Final Cross-Validation Results:
+Average R2:  0.5726 ± 0.0316
+Average RMSE: 0.7830 ± 0.0367
+Average MAE:  0.5926 ± 0.0267
+Average MSE:  0.6144 ± 0.0572
+Total execution time: 7454.22 seconds

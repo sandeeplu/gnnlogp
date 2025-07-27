@@ -1,0 +1,157 @@
+import os
+os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+import time
+import random
+import numpy as np
+import pandas as pd
+import torch
+import torch.nn.functional as F
+from torch_geometric.data import Data
+from torch_geometric.loader import DataLoader
+from torch_geometric.utils import from_smiles
+from torch_geometric.nn import GINConv, MLP, global_mean_pool
+from sklearn.model_selection import KFold
+from sklearn.metrics import r2_score
+from torch.utils.data import SubsetRandomSampler
+from torch.optim.lr_scheduler import ReduceLROnPlateau
+
+# Reproducibility
+def seed_set(seed=42):
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+seed_set(42)
+torch.use_deterministic_algorithms(True)
+generator = torch.Generator().manual_seed(42)
+
+# Load dataset
+df_final = pd.read_csv('/home/agbande-remote/sandeep/gnn/afp/afp_final/eql_2_gcn/Lipophilicity.csv')
+
+# Prepare graph dataset
+graph_list = []
+for i, smile in enumerate(df_final['smiles']):
+    g = from_smiles(smile)
+    g.x = g.x.float()
+    g.y = torch.tensor([df_final['exp'][i]], dtype=torch.float)
+    g.smiles = smile  # Add smiles string to graph
+    graph_list.append(g)
+
+# Define GIN model
+class GIN(torch.nn.Module):
+    def __init__(self, in_channels, hidden_channels, out_channels, num_layers):
+        super().__init__()
+        self.convs = torch.nn.ModuleList()
+        for _ in range(num_layers):
+            mlp = MLP([in_channels, hidden_channels, hidden_channels])
+            self.convs.append(GINConv(nn=mlp, train_eps=False))
+            in_channels = hidden_channels
+        self.mlp = MLP([hidden_channels, hidden_channels, out_channels],
+                       norm=None, dropout=0.4)
+
+    def reset_parameters(self):
+        for conv in self.convs:
+            conv.reset_parameters()
+        self.mlp.reset_parameters()
+
+    def forward(self, x, edge_index, batch):
+        for conv in self.convs:
+            x = conv(x, edge_index).relu()
+        x = global_mean_pool(x, batch)
+        return self.mlp(x)
+
+# Define training and evaluation
+def train(model, loader, optimizer):
+    model.train()
+    total_loss = total_samples = 0
+    for data in loader:
+        data = data.to(device)
+        optimizer.zero_grad()
+        out = model(data.x, data.edge_index, data.batch)
+        loss = F.mse_loss(out, data.y.view(-1, 1))
+        loss.backward()
+        optimizer.step()
+        total_loss += float(loss) * data.num_graphs
+        total_samples += data.num_graphs
+    return np.sqrt(total_loss / total_samples)
+
+@torch.no_grad()
+def test(model, loader):
+    model.eval()
+    mse = []
+    for data in loader:
+        data = data.to(device)
+        out = model(data.x, data.edge_index, data.batch)
+        l = F.mse_loss(out, data.y.view(-1, 1), reduction='none').cpu().view(-1)
+        mse.append(l)
+    mse = torch.cat(mse, dim=0)
+    return mse.mean().sqrt().item()
+
+@torch.no_grad()
+def evaluate(model, loader):
+    model.eval()
+    output = []
+    smiles_list = []
+    for data in loader:
+        data = data.to(device)
+        out = model(data.x, data.edge_index, data.batch)
+        if out is None or data.y is None:
+            continue
+        output.append(torch.cat((out, data.y.view(-1, 1)), dim=1).cpu())
+        smiles_list += data.smiles if isinstance(data.smiles, list) else [data.smiles]
+    if not output:
+        return None
+    results = pd.DataFrame(torch.cat(output).numpy(), columns=['pred', 'actual'])
+    results['smiles'] = smiles_list
+    r2 = r2_score(results['actual'], results['pred'])
+    return r2
+
+# Device setup
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# K-Fold Cross Validation
+kfold = KFold(n_splits=5, shuffle=True, random_state=50)
+results = []
+overall_start_time = time.time()
+
+for fold, (train_ids, test_ids) in enumerate(kfold.split(graph_list)):
+    print(f"\nFOLD {fold} ----------------------------")
+    fold_start_time = time.time()
+
+    train_loader = DataLoader(graph_list, batch_size=32, sampler=SubsetRandomSampler(train_ids))
+    test_loader = DataLoader(graph_list, batch_size=32, sampler=SubsetRandomSampler(test_ids))
+
+    model = GIN(in_channels=9, hidden_channels=256, out_channels=1, num_layers=3).to(device)
+    optimizer = torch.optim.Adam(model.parameters(), lr=4.4755e-6, weight_decay=9.8267e-6)
+    #scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.7, patience=10, verbose=False)
+
+    model.reset_parameters()
+
+    for epoch in range(300):
+        train_rmse = train(model, train_loader, optimizer)
+        test_rmse = test(model, test_loader)
+        #scheduler.step(test_rmse)
+        if epoch % 10 == 0:
+            print(f'Epoch {epoch:03d}: Train RMSE = {train_rmse:.4f}, Test RMSE = {test_rmse:.4f}')
+
+    # Save model
+    save_path = f'/home/agbande-remote/sandeep/gnn/fc/gin/ginm/lippo/with_MAE_MSE/wo_early/batch_size_32/hd_figure/early_stop/testing/pyg_gin/final_pyg/try/4th/5CV/model-fold-{fold}.pth'
+    torch.save(model.state_dict(), save_path)
+
+    # Evaluation
+    r2 = evaluate(model, test_loader)
+    print(f"Fold {fold} R2 score: {r2:.4f}" if r2 else "No valid predictions.")
+    results.append(r2)
+    print(f"Fold {fold} completed in {(time.time() - fold_start_time):.2f} seconds.")
+
+# Final summary
+valid_r2 = [r for r in results if r is not None]
+average_r2 = sum(valid_r2) / len(valid_r2) if valid_r2 else float('nan')
+print(f'\nAverage R2 score across {len(valid_r2)} folds: {average_r2:.4f}')
+print(f'Total execution time: {(time.time() - overall_start_time):.2f} seconds')
+
