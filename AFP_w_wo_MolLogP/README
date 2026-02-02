@@ -1,0 +1,21 @@
+# logP Prediction with AttentiveFP
+
+This repository contains scripts used to train AttentiveFP models for experimental logP prediction.
+
+Two variants are provided:
+
+1. **Structure-only GNN**  
+   Uses molecular graphs derived from SMILES without logP-related descriptors.
+
+2. **GNN with MolLogP**  
+   Includes MolLogP (Wildman–Crippen, RDKit) as an additional global molecular descriptor,
+   broadcast to node features.
+
+Both scripts:
+- use the same dataset
+- apply the same random 80/20 train–test split
+- use identical model architectures, hyperparameters, and random seeds
+
+The comparison is intended to assess potential circular prediction effects arising from
+including MolLogP.
+
