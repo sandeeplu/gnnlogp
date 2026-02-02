@@ -1,0 +1,17 @@
+
+🔍 Scaffold Leakage Check
+----------------------------------------
+Overlapping scaffolds: 0
+
+📊 Scaffold Split Summary Table
+----------------------------------------
+   Split  ...  Max Molecules per Scaffold
+0  Train  ...                          76
+1   Test  ...                           1
+
+[2 rows x 6 columns]
+
+✅ Analysis complete.
+Saved:
+ - scaffold_split_summary.csv
+ - scaffold_target_distribution.png
